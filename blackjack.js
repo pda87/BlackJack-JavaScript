@@ -35,6 +35,8 @@ function checkForBurn() {
 
 function dealClick() {
 
+  checkBlackJack();
+
   if(gameOver)
   {
     return;
