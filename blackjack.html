@@ -1,43 +1,51 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-  <div id="wrapper">
-    <div class="container-fluid">
-	
-		<div id="headerandnavigationdiv">
-		</div>
-		<div id ="titleandcontactenvelope">
-		</div>
-		<div id="fade-me">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Navigation bar at top-->
+  <div id="navigationbar">
+  </div>
+  <!--5 navigation buttons-->
+  <div id="navigationbuttons">
+  </div>
+  <!--Page Title-->
+  <div id="titlebox" class="col-lg-12">
+    <div class="col-lg-1"></div>
+    <div id="pagetitle" class="col-lg-10">
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+  <div id="fade-in">
+  <div class="col-lg-12">
+	<div class="col-lg-4"></div>
+	<div id="blackjackmain" class="col-lg-4">
 			<div id="blackjackmain">
 			  <img id="card1">
 			  <img id="card2">
 			  <img id="card3">
 			  <br>
 			  <br>
-			  <input type="button" class="btn btn-primary" id="gamebutton" value="Deal" onclick="dealClick()">
-			  <input type="button" class="btn btn-primary" id="gamebutton" value="Burn" onclick="burn()">
-			  <input type="button" class="btn btn-primary" id="gamebutton" value="Reset" onclick="reset()">
-			  <h1 id="score"></h1>
+			  <input type="button" class="btn btn-primary" id="blackjack-deal" value="Deal">
+			  <input type="button" class="btn btn-primary" id="blackjack-burn" value="Burn">
+			  <input type="button" class="btn btn-primary" id="blackjack-reset" value="Reset">
+			  <h1 id="blackjack-score"></h1>
 			</div>
-		</div>
-	
 	</div>
+	<div class="col-lg-4"></div>
 	</div>
-  <div id="pagefooter">
   </div>
-  </div>
-  </body>
-  <script type="text/JavaScript" src="blackjack.js"></script>
-  <script type="text/JavaScript" src="scripts.js"></script>
+</body>
 </html>
+<script type="text/JavaScript" src="JavaScript/scripts.js"></script>
+<script type="text/JavaScript" src="JavaScript/blackjack.js"></script>
